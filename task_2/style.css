@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-wrapper{
+    background: #ffd59c;
+    padding: 50px;
+    text-align: center;
+}
+.header-wrapper div{
+    background: #be864e;
+    padding: 20px 250px;
+}
+h1{
+    padding: 5px 50px 15px 50px;
+    background: #fff;
+    
+}
+
+li{
+    float: left;
+    width: 20%;
+    list-style: none;
+    height: 100px;
+    text-align: center;
+}
+li:first-child{
+    background: #2aad52
+}
+li:nth-child(2){
+    background: #2a4dad
+}
+li:nth-child(3){
+    background: #e8b672
+}
+li:nth-child(4){
+    background: #ef5063
+}
+li:nth-child(5){
+    background: #621d8d
+}
+
+
+.block{
+    float: left;
+    width: 33.333333%;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.left-side{
+    background: #1b801b;
+    padding: 10px 50px 0px 50px;
+}
+.left-side h2{
+    background: #c7c7c7;
+    padding: 25px 0;
+    text-align: center;  
+}
+
+.left-side .content{
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.left-side .content div:first-child{
+    height: 70px;
+    background: #ba2222
+}
+.left-side .content div:nth-child(2){
+    background: #ff5057;
+    float: left;
+    width: 50%;
+    height: 220px;
+}
+.left-side .content div:nth-child(3){
+    background: #c9ab82;
+    height: 220px;
+}
+.center h2{
+    text-align: center;
+    background: #157943;
+    padding: 2px 0 10px;
+}
+.center .b{
+    float: left;
+    width: 33.3333%;
+    background: #7fea9b;
+    text-align: center;
+/*    padding-bottom: 45px;*/
+}
+.center .b h3{
+    padding-bottom:  75px;
+}
+.center .b .content div:first-child{
+    background: #9f1f1f;
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+.center .b .content div div:first-child{
+    background: #9cf544;
+    margin-top: 130px;
+    height: 200px;
+
+/*    margin-top: 100px;*/
+
+}
+.center .c {
+    width: 33.33%;
+    float: left}
+
+.c div{
+    padding-bottom: 75px;
+    text-align: center;
+}
+.c div:first-child{
+    background: #bbd1e3;
+}
+.c div:nth-child(2){
+    background: #101093;
+}
+.c div:nth-child(3){
+    background: #ad06ad
+}
+.c div:nth-child(4) div:first-child{
+    float: left;
+    width: 50%;
+    background: #e0e052
+}
+.c div:nth-child(4) div:last-child{
+    float: left;
+    width: 50%;
+    background: #e39d2c
+}
+.d div{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 75px;
+    background: #04ffa8
+}
+.d div:nth-child(2){
+    background: #006432
+}
+.d div:nth-child(3){
+    background: #f8c073;
+    padding-bottom: 200px;
+}
+
+#something{
+    background: #fff;
+    border: 2px solid green;
+    margin : 15% 30%;
+    width: 40%;
+}
+.right-side .header div{
+    padding: 2px 0 10px;
+    text-align: center;
+    float: left;
+    width: 33.333%;
+    background: #2ed42e
+}
+.right-side .header div:nth-child(2){
+    background: #f26cdd
+}
+.right-side .header div:nth-child(3){
+    background: #f78717
+}
+.right-side .content div{
+    height: 72px;
+    text-align: center;
+}
+
+.right-side .content div:nth-child(1){
+    padding: 16px;
+    clear: both;
+
+}
+.right-side .content div:nth-child(1) .red{
+    background: #ef5454;
+    margin: 0 auto;
+    width: 40%;
+    height: 40px;
+    overflow: hidden
+}
+.right-side .content div:nth-child(1) .red div{
+    width: 40px;
+    height: 10px;
+    background: #171616;
+    margin: auto;
+    
+}
+.right-side .content div:nth-child(2){
+    background: #c4c1c1
+}
+.right-side .content .box div:first-child{
+    float: left;
+    background: #147614;
+    width: 33.3333%;
+    height: 300px;
+    padding: 0;
+}
+.right-side .content .box .left-box{
+    float: left;
+    width: 66.66%;
+   
+    
+}
+.right-side .content .box .left-box div:first-child{
+    background: #676666;
+    height: 72px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.right-side .content .box .left-box .f div{
+    float: left;
+    width: 50%;
+    height: 72px;
+    background: #7c197c
+}
+.right-side .content .box .left-box .f div:nth-child(2){
+    background: #c9c949;
+}
+.right-side .content .box .left-box .last{
+    background: #ffafbd;
+    height: 90px;
+    clear: both;
+}
+
+footer{
+    padding: 10px;
+    clear: both;
+    height: 120px;
+    background: #a5a3a3;
+    text-align: center;
+    display: block
+}
+

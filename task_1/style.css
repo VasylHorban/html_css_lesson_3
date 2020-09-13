@@ -1,0 +1,21 @@
+.box{
+    width: 350px;
+    height: 120px;
+    background: #06ffcf;
+    margin: 20px auto;
+}
+.box:first-child{
+    border: 3px dashed #ff3100
+}
+.box:nth-child(2){
+    border: 3px dotted #ff3100;
+    background: #ffff19
+}
+.box:nth-child(3){
+    border: 20px solid #171779;
+    border-bottom:20px solid #3737d3;
+    border-right:20px  solid #3737d3;
+}
+.box:last-child{
+    border-left: 10px solid #222121
+}
